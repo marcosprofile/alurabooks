@@ -1,0 +1,34 @@
+.carrossel__titulo {
+  color: var(--laranja);
+  background: var(--branco);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: var(--bold);
+  padding: 1em 0 0.5em 0;
+}
+
+.book {
+  background: var(--branco);
+  margin: 0 1em;
+  padding: 4em;
+  border-radius: 16px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.book img {
+  width: 224px;
+  border-radius: 8px;
+  box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.25);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+.swiper-pagination {
+  position: initial;
+  margin: .8em 0;
+}
