@@ -28,8 +28,10 @@
 .lista-menu {
   display: none;
   position: absolute;
+  z-index: 2;
+  box-shadow: 0px 16px 16px rgb(0, 0, 0, .2);
   top: 100%;
-  width: 56vw;
+  width: 320px;
   padding: 16px;
   background: var(--branco);
   border-radius: 0 0 12px 0;
